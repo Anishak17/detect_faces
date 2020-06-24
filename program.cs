@@ -5,18 +5,10 @@ using Dlib = DlibDotNet.Dlib;
 
 namespace FaceDetector
 {
-    /// <summary>
-    /// The main program class
-    /// </summary>
     class Program
     {
         // file paths
         private const string inputFilePath = "C:/Users/anish/OneDrive/Pictures/Saved Pictures/input.jpg";
-
-        /// <summary>
-        /// The main program entry point
-        /// </summary>
-        /// <param name="args">The command line arguments</param>
         static void Main(string[] args)
         {
             // set up Dlib facedetector
